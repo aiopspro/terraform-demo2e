@@ -7,7 +7,11 @@
 #Once you clone this repo run below commands:
 ---
 terraform init
+
+---
 terraform validate
+
+---
 terraform import "aws_s3_bucket.bucket1" idktecharcho-first-st-bucket
 
 ---
@@ -28,5 +32,9 @@ aws_s3_bucket.bucket1: Refreshing state... [id=idktecharcho-first-st-bucket]
 
 ---
 terraform plan
+
+---
 terraform apply
+
+---
 terraform destroy
